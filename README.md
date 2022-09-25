@@ -32,10 +32,10 @@ Features
 New Features and Improvements 
 
 	• Improve File Structuring
-	• Created Race To button
-		○ User can dynamically set the winning score by setting its value using Race to … button
+	• Created Desired Race functionality
+		○ User can dynamically set the winning score by setting its value 
 		○ Added setRace function
-		○ Shows a modal when button "Race to 100" is clicked
+		○ Shows a modal when button "New Game" is clicked
 			§ Set Desired Race
 			§ Overlay background
 			§ Close modal
@@ -44,6 +44,7 @@ New Features and Improvements
 		○ Set the winning score based from what user input 
 			§ Added Validation
 				□ Close modal after setting the value for new winning score otherwise (no value) no behavior
+		○ Re-initialize UI value
 	• Added Game Mechanics
 	• Refactor
 		○ Use function expression and pass it to event handler 
