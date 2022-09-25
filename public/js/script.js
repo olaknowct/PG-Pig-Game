@@ -108,6 +108,8 @@ const modalHide = function () {
 };
 
 const setRace = function () {
+  init();
+
   raceTo = inputRace.value;
 
   if (!raceTo) return;
